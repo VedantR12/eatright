@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: gilroy;
 }
 
 html, body{
@@ -19,29 +18,24 @@ html, body{
 }
 
 #logo{
+  justify-content: center;
+  font-size: 8px;
+  border: 1px solid black;
+  font-family: arial, sans-serif;
+  letter-spacing: 0.5px;
+  font-weight: 300;
+}
+
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  
 }
 
 #nav1{
-  display: flex;
-  font-weight: 500;
-  font-size: 10px;
 }
 
 #nav3{
-  display: flex;  
-  justify-content: space-between;
-}
-
-#btn1{
-  padding: 3px 3px;
-  border-radius: 15px;
-  border: 0px;
-  background-color: white;
-}
-
-#btn2{
-  padding: 3px 3px;
-  border-radius: 15px;
-  border: 0px;
-  background-color: white;
 }
