@@ -84,20 +84,25 @@ html, body{
 #team{
     width: 100vh;
     height: 600px;
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
+#head{
+  width: 100vh;
+  margin-top: 80px;
+  padding: 0px 40px;
+}
+
 #red{
     width: 300px;
-    height: 500px;
+    height: 413px;
     border: 2px solid black;
-    border-radius: 25px;
 }
 
 #red h3{
-    margin-left: 22%;
+    padding: 0px 30px;
     font-size: 25px;
 }
 
@@ -105,18 +110,16 @@ html, body{
     width: 300px;
     height: 300px;
     padding: 30px 30px;
-    border-radius: 50px;
 }
 
 #yellow{
     width: 300px;
-    height: 500px;
+    height: 413px;
     border: 2px solid black;
-    border-radius: 25px;
 }
 
 #yellow h3{
-    margin-left: 20%;
+    padding: 0px 30px;
     font-size: 25px;
 }
 
@@ -124,5 +127,8 @@ html, body{
     width: 300px;
     height: 300px;
     padding: 30px 30px;
-    border-radius: 50px;
+}
+
+.role{
+  padding: 0px 30px;
 }
