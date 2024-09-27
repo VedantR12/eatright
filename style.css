@@ -29,17 +29,25 @@ html, body{
 .cat{
   width: 100vh;
   height: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: rgba(188, 188, 255, 0.2);
   border: 0.6px solid black;
 }
 
 #cat1{
+  height: 80px;
+  align-items: center;
   display: flex;
-  justify-content: center;
   font-family: "Poppins", sans-serif;
+}
+
+#cat1{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
 }
 
 #cat1 h2{
@@ -68,7 +76,7 @@ html, body{
   color: white;
   width: 150%;
   position: absolute;
-  top: 50%;
+  top: 190px;
   left: 110px;
   align-items: center;
   font-size: 150px;
