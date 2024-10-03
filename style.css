@@ -6,7 +6,8 @@
 
 
 html, body{
-  height: 100%;
+  postion: relative;
+  height: 200%;
   width: 100%;
 }
 
